@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <!-- Copyright (C) 2023 Unrud <unrud@outlook.com> -->
+  <id>io.github.unrud.RecentFilter.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Recent Filter</name>
+  <summary>Exclude files and folders from recently used files</summary>
+  <description>
+    <p>﻿Exclude specific files and folders from appearing in the list of recently used files.</p>
+    <p>
+      Paths can be specified using wildcards, just like in a .gitignore file.
+      This means you can use patterns such as "*.txt".
+    </p>
+  </description>
+  <launchable type="desktop-id">io.github.unrud.RecentFilter.desktop</launchable>
+  <url type="bugtracker">https://github.com/Unrud/recent-filter/issues</url>
+  <url type="homepage">https://github.com/Unrud/recent-filter</url>
+  <developer_name translatable="no">Unrud</developer_name>
+  <update_contact>unrud_AT_outlook.com</update_contact>
+  <translation type="gettext">recent-filter</translation>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/Unrud/recent-filter/v0.1.0/screenshots/1.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1" />
+</component>

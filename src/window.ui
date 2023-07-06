@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2023 Unrud <unrud@outlook.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+SPDX-License-Identifier: GPL-3.0-or-later
+
+-->
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <requires lib="Adw" version="1.0"/>
+  <template class="RecentFilterWindow" parent="AdwApplicationWindow">
+    <property name="title" translatable="yes">Recent Filter</property>
+    <property name="default-width">600</property>
+    <property name="default-height">400</property>
+    <property name="content">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkHeaderBar" id="header_bar">
+            <child type="end">
+              <object class="GtkMenuButton">
+                <property name="icon-name">open-menu-symbolic</property>
+                <property name="menu-model">primary_menu</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwBanner" id="banner_wdg">
+            <property name="title" translatable="yes">Deactivate to change settings</property>
+            <property name="button-label" translatable="yes">Deactivate</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow">
+            <property name="vexpand">1</property>
+            <property name="child">
+              <object class="AdwClamp">
+                <child>
+                  <object class="GtkBox">
+                    <property name="margin-start">18</property>
+                    <property name="margin-end">18</property>
+                    <property name="margin-top">18</property>
+                    <property name="margin-bottom">18</property>
+                    <property name="orientation">vertical</property>
+                    <property name="spacing">24</property>
+                    <child>
+                      <object class="GtkListBox">
+                        <style>
+                          <class name="boxed-list"/>
+                        </style>
+                        <property name="valign">start</property>
+                        <property name="selection-mode">none</property>
+                        <child>
+                          <object class="AdwActionRow">
+                            <property name="title" translatable="yes">Activate Service</property>
+                            <property name="subtitle" translatable="yes">Filter recently used files and keep running in the background</property>
+                            <property name="activatable-widget">active_wdg</property>
+                            <child>
+                              <object class="GtkSwitch" id="active_wdg">
+                                <property name="valign">center</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="AdwPreferencesGroup" id="preferences_wdg">
+                        <property name="title" translatable="yes">Ignore Pattern</property>
+                        <property name="description" translatable="yes">Uses gitignore format. Non-local files are not supported.</property>
+                        <property name="header-suffix">
+                          <object class="GtkButton">
+                            <property name="valign">start</property>
+                            <property name="action-name">win.add-folder</property>
+                            <property name="child">
+                              <object class="AdwButtonContent">
+                                <property name="icon-name">document-open-symbolic</property>
+                                <property name="label" translatable="yes">Add Folder</property>
+                              </object>
+                            </property>
+                          </object>
+                        </property>
+                        <child>
+                          <object class="GtkTextView">
+                            <style>
+                              <class name="card"/>
+                            </style>
+                            <property name="buffer">ignore_pattern_buffer</property>
+                            <property name="vexpand">1</property>
+                            <property name="left-margin">12</property>
+                            <property name="right-margin">12</property>
+                            <property name="top-margin">12</property>
+                            <property name="bottom-margin">12</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </property>
+          </object>
+        </child>
+      </object>
+    </property>
+  </template>
+  <menu id="primary_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Keyboard Shortcuts</attribute>
+        <attribute name="action">win.show-help-overlay</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">About Recent Filter</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+    </section>
+  </menu>
+  <object class="GtkTextBuffer" id="ignore_pattern_buffer">
+    <property name="enable-undo">True</property>
+  </object>
+</interface>
+
+

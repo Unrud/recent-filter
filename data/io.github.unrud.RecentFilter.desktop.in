@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Recent Filter
+Comment=Exclude files and folders from recently used files
+Exec=recent-filter
+Icon=io.github.unrud.RecentFilter
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

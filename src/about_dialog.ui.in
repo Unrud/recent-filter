@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2023 Unrud <unrud@outlook.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+SPDX-License-Identifier: GPL-3.0-or-later
+
+-->
+<interface>
+  <requires lib="libadwaita" version="1.0"/>
+  <object class="AdwAboutWindow" id="about_window">
+    <property name="modal">1</property>
+    <property name="destroy-with-parent">1</property>
+    <!-- Main page -->
+    <property name="application-icon">io.github.unrud.RecentFilter</property>
+    <property name="application-name" translatable="yes">Recent Filter</property>
+    <property name="developer-name">Unrud</property>
+    <property name="version">@VERSION@</property>
+    <!-- What's new -->
+    <property name="release-notes">@releasenotes@</property>
+    <!-- Details -->
+    <property name="website">https://github.com/unrud/recent-filter</property>
+    <!-- Troubleshooting -->
+    <property name="issue-url">https://github.com/unrud/recent-filter/issues</property>
+    <!-- Credits and Acknowledgements -->
+    <property name="developers">Unrud</property>
+    <!-- Legal -->
+    <property name="copyright">Copyright © 2023 Unrud</property>
+    <property name="license-type">gpl-3-0</property>
+  </object>
+</interface>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="recent-filter">
+  <schema id="io.github.unrud.RecentFilter" path="/io/github/unrud/RecentFilter/">
+    <key type="b" name="active">
+      <default>false</default>
+    </key>
+    <key type="s" name="ignore-pattern">
+      <default>''</default>
+    </key>
+  </schema>
+</schemalist>

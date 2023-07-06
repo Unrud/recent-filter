@@ -1,0 +1,14 @@
+data/io.github.unrud.RecentFilter.desktop.in
+data/io.github.unrud.RecentFilter.gschema.xml
+data/io.github.unrud.RecentFilter.metainfo.xml.in
+src/about_dialog.ui.in
+src/background_portal.py
+src/filter.py
+src/gitignore.py
+src/gtk/help-overlay.ui
+src/main.py
+src/service.py
+src/util/connection.py
+src/util/__init__.py
+src/window.py
+src/window.ui

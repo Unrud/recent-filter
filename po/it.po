@@ -1,0 +1,119 @@
+# ITALIAN .TRANSLATION
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the recent-filter package.
+# ALBANO BATTISTELLA <ALBANOBATTISTELLA@GMAIL.COM>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: recent-filter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-06 20:51+0200\n"
+"PO-Revision-Date: 2023-07-11 20:03+0100\n"
+"Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
+"Language-Team: Italian <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/io.github.unrud.RecentFilter.desktop.in:3
+#: data/io.github.unrud.RecentFilter.metainfo.xml.in:7
+#: src/about_dialog.ui.in:27 src/main.py:40 src/window.ui:24
+msgid "Recent Filter"
+msgstr "Filtro Recente"
+
+#: data/io.github.unrud.RecentFilter.desktop.in:4
+#: data/io.github.unrud.RecentFilter.metainfo.xml.in:8
+msgid "Exclude files and folders from recently used files"
+msgstr "Escludi file e cartelle dai file utilizzati di recente"
+
+#: data/io.github.unrud.RecentFilter.metainfo.xml.in:10
+msgid ""
+"﻿Exclude specific files and folders from appearing in the list of recently "
+"used files."
+msgstr ""
+"﻿Escludi file e cartelle specifici dalla visualizzazione nell'elenco dei "
+"file usati".
+
+#: data/io.github.unrud.RecentFilter.metainfo.xml.in:11
+msgid ""
+"Paths can be specified using wildcards, just like in a .gitignore file. This "
+"means you can use patterns such as \"*.txt\"."
+msgstr ""
+"I percorsi possono essere specificati utilizzando i caratteri jolly, proprio come in un file .gitignore. Questo "
+"significa che puoi usare percorsi come \"*.txt\"."
+
+#: src/gtk/help-overlay.ui:29
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Generale"
+
+#: src/gtk/help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Mostra scorciatoie"
+
+#: src/gtk/help-overlay.ui:38
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Esci"
+
+#: src/service.py:73
+msgid "Deactivate background service"
+msgstr "Disattiva il servizio in background"
+
+#: src/service.py:75
+msgid "Service deactivated"
+msgstr "Servizio disattivato"
+
+#: src/service.py:77
+msgid "Monitoring recently used files"
+msgstr "Monitoraggio dei file utilizzati di recente"
+
+#: src/service.py:100
+msgid "Activate background service"
+msgstr "Attiva il servizio in background"
+
+#: src/window.py:86
+msgid "Add Folders to Ignore Pattern"
+msgstr "Aggiungi cartelle per ignorare il modello"
+
+#: src/window.py:87
+msgid "Select Folder"
+msgstr "Seleziona cartella"
+
+#: src/window.ui:42
+msgid "Deactivate to change settings"
+msgstr "Disattivare per modificare le impostazioni"
+
+#: src/window.ui:43
+msgid "Deactivate"
+msgstr "Disattiva"
+
+#: src/window.ui:68
+msgid "Activate Service"
+msgstr "Attiva servizio"
+
+#: src/window.ui:69
+msgid "Filter recently used files and keep running in the background"
+msgstr "Filtra i file utilizzati di recente e continua a funzionare in background"
+
+#: src/window.ui:82
+msgid "Ignore Pattern"
+msgstr "Ignora modello"
+
+#: src/window.ui:83
+msgid "Uses gitignore format. Non-local files are not supported."
+msgstr "Utilizza il formato gitignore. I file non locali non sono supportati."
+
+#: src/window.ui:91
+msgid "Add Folder"
+msgstr "Aggiungi cartella"
+
+#: src/window.ui:123
+msgid "Keyboard Shortcuts"
+msgstr "Scorciatoie da tastiera"
+
+#: src/window.ui:127
+msgid "About Recent Filter"
+msgstr "Informazioni sul Filtro Recente"

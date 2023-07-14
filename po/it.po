@@ -116,4 +116,4 @@ msgstr "Scorciatoie da tastiera"
 
 #: src/window.ui:127
 msgid "About Recent Filter"
-msgstr "Informazioni sul Filtro Recente"
+msgstr "Informazioni su Filtro Recente"

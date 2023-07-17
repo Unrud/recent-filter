@@ -33,7 +33,7 @@ msgid ""
 "used files."
 msgstr ""
 "﻿Escludi file e cartelle specifici dalla visualizzazione nell'elenco dei "
-"file usati".
+"file usati."
 
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:11
 msgid ""

@@ -35,7 +35,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <property name="issue-url">https://github.com/unrud/recent-filter/issues</property>
     <!-- Credits and Acknowledgements -->
     <property name="developers">Unrud</property>
-    <property name="translator-credits">Albano Battistella</property>
+    <property name="translator-credits">Albano Battistella
+Heimen Stoffels</property>
     <!-- Legal -->
     <property name="copyright">Copyright © 2023 Unrud</property>
     <property name="license-type">gpl-3-0</property>

@@ -1,116 +1,122 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Turkish translation for recent-filter.
+# Copyright (C) 2023 recent-filter's COPYRIGHT HOLDER
 # This file is distributed under the same license as the recent-filter package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Sabri Ünal <libreajans@gmail.com>, 2023.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: recent-filter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-20 01:05+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-08-20 01:12+0300\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.2.2\n"
+"X-POOTLE-MTIME: 1433367259.000000\n"
 
 #: data/io.github.unrud.RecentFilter.desktop.in:3
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:7
 #: src/about_dialog.ui.in:27 src/main.py:40 src/window.ui:24
 msgid "Recent Filter"
-msgstr ""
+msgstr "Son Kullanılan Filtresi"
 
 #: data/io.github.unrud.RecentFilter.desktop.in:4
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:8
 msgid "Exclude files and folders from recently used files"
-msgstr ""
+msgstr "Dosyaları ve klasörleri son kullanılan dosyalardan hariç tut"
 
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:10
 msgid ""
 "﻿Exclude specific files and folders from appearing in the list of recently "
 "used files."
 msgstr ""
+"Belirli dosyalar ve klasörler son kullanılan dosyalar listesinde göstermesin."
 
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:11
 msgid ""
 "Paths can be specified using wildcards, just like in a .gitignore file. This "
 "means you can use patterns such as \"*.txt\"."
 msgstr ""
+"Yollar, .gitignore dosyasında olduğu gibi joker karakterler kullanılarak "
+"belirtilebilir. \"*.txt\" gibi kalıpları kullanabilirsiniz."
 
 #: src/gtk/help-overlay.ui:29
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Genel"
 
 #: src/gtk/help-overlay.ui:32
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Kısayolları Göster"
 
 #: src/gtk/help-overlay.ui:38
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Çık"
 
 #: src/service.py:73
 msgid "Deactivate background service"
-msgstr ""
+msgstr "Arka plan hizmetini devre dışı bırak"
 
 #: src/service.py:75
 msgid "Service deactivated"
-msgstr ""
+msgstr "Hizmet devre dışı bırakıldı"
 
 #: src/service.py:77
 msgid "Monitoring recently used files"
-msgstr ""
+msgstr "Son kullanılan dosyalar izleniyor"
 
 #: src/service.py:100
 msgid "Activate background service"
-msgstr ""
+msgstr "Arka plan hizmetini etkinleştir"
 
 #: src/window.py:86
 msgid "Add Folders to Ignore Pattern"
-msgstr ""
+msgstr "Görmezden Gelme Desenine Klasörler Ekle"
 
 #: src/window.py:87
 msgid "Select Folder"
-msgstr ""
+msgstr "Klasör Seç"
 
 #: src/window.ui:42
 msgid "Deactivate to change settings"
-msgstr ""
+msgstr "Ayarları değiştirmek için devre dışı bırak"
 
 #: src/window.ui:43
 msgid "Deactivate"
-msgstr ""
+msgstr "Devre Dışı Bırak"
 
 #: src/window.ui:68
 msgid "Activate Service"
-msgstr ""
+msgstr "Hizmeti Etkinleştir"
 
 #: src/window.ui:69
 msgid "Filter recently used files and keep running in the background"
-msgstr ""
+msgstr "Son kullanılan dosyaları süz ve arka planda çalışmaya devam et"
 
 #: src/window.ui:82
 msgid "Ignore Pattern"
-msgstr ""
+msgstr "Görmezden Gelme Desenleri"
 
 #: src/window.ui:83
 msgid "Uses gitignore format. Non-local files are not supported."
-msgstr ""
+msgstr "Gitignore biçimini kullanır. Yerel olmayan dosyaları desteklemez."
 
 #: src/window.ui:91
 msgid "Add Folder"
-msgstr ""
+msgstr "Klasör Ekle"
 
 #: src/window.ui:123
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klavye Kısayolları"
 
 #: src/window.ui:127
 msgid "About Recent Filter"
-msgstr ""
+msgstr "Son Kullanılan Filtresi Hakkında"

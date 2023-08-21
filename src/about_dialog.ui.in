@@ -36,7 +36,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <!-- Credits and Acknowledgements -->
     <property name="developers">Unrud</property>
     <property name="translator-credits">Albano Battistella
-Heimen Stoffels</property>
+Heimen Stoffels
+Sabri Ünal </property>
     <!-- Legal -->
     <property name="copyright">Copyright © 2023 Unrud</property>
     <property name="license-type">gpl-3-0</property>

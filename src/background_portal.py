@@ -23,7 +23,7 @@ from typing import Iterable, Optional
 
 from gi.repository import Gio, GLib
 
-from recent_filter.util import gobject_log
+from recent_filter.util import g_log, gobject_log
 from recent_filter.util.connection import CloseStack, SignalConnection
 
 
@@ -64,8 +64,15 @@ class BackgroundPortal:
                 'message': GLib.Variant.new_string(message),
             },
         ))
-        self._background_proxy.call_sync(
-            'SetStatus', parameters, Gio.DBusCallFlags.NONE, -1)
+        try:
+            self._background_proxy.call_sync(
+                'SetStatus', parameters, Gio.DBusCallFlags.NONE, -1)
+        except GLib.Error as e:
+            if e.matches(Gio.DBusError.quark(), Gio.DBusError.UNKNOWN_METHOD):
+                g_log('background-portal', GLib.LogLevelFlags.LEVEL_WARNING,
+                      'Can\'t set status message because method not available')
+                return
+            raise
 
     def request_background(
             self, window_handle: str, reason: Optional[str],

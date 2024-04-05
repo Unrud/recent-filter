@@ -16,7 +16,9 @@
   <launchable type="desktop-id">io.github.unrud.RecentFilter.desktop</launchable>
   <url type="bugtracker">https://github.com/Unrud/recent-filter/issues</url>
   <url type="homepage">https://github.com/Unrud/recent-filter</url>
-  <developer_name translatable="no">Unrud</developer_name>
+  <developer id="io.github.unrud">
+    <name translate="no">Unrud</name>
+  </developer>
   <update_contact>unrud_AT_outlook.com</update_contact>
   <translation type="gettext">recent-filter</translation>
   <screenshots>

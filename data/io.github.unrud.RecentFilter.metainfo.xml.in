@@ -17,6 +17,7 @@
   <url type="bugtracker">https://github.com/Unrud/recent-filter/issues</url>
   <url type="homepage">https://github.com/Unrud/recent-filter</url>
   <url type="vcs-browser">https://github.com/Unrud/recent-filter</url>
+  <developer_name translate="no">Unrud</developer_name>
   <developer id="io.github.unrud">
     <name translate="no">Unrud</name>
   </developer>

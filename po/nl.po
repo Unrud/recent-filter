@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recent-filter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-06 20:51+0200\n"
+"POT-Creation-Date: 2023-08-21 18:53+0200\n"
 "PO-Revision-Date: 2023-08-08 22:59+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: \n"
@@ -73,13 +73,17 @@ msgstr "Onlangs gebruikte bestanden worden bĳgehouden"
 msgid "Activate background service"
 msgstr "Achtergronddienst inschakelen"
 
-#: src/window.py:86
+#: src/window.py:99 src/window.py:114
 msgid "Add Folders to Ignore Pattern"
 msgstr "Mappen toevoegen aan negeerpatroon"
 
-#: src/window.py:87
+#: src/window.py:100 src/window.py:120
 msgid "Select Folder"
 msgstr "Kies een map"
+
+#: src/window.py:119
+msgid "Cancel"
+msgstr ""
 
 #: src/window.ui:42
 msgid "Deactivate to change settings"

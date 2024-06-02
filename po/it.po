@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recent-filter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-06 20:51+0200\n"
+"POT-Creation-Date: 2023-08-21 18:53+0200\n"
 "PO-Revision-Date: 2023-07-11 20:03+0100\n"
 "Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
 "Language-Team: Italian <LL@li.org>\n"
@@ -32,16 +32,17 @@ msgid ""
 "﻿Exclude specific files and folders from appearing in the list of recently "
 "used files."
 msgstr ""
-"﻿Escludi file e cartelle specifici dalla visualizzazione nell'elenco dei "
-"file usati."
+"﻿Escludi file e cartelle specifici dalla visualizzazione nell'elenco dei file "
+"usati."
 
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:11
 msgid ""
 "Paths can be specified using wildcards, just like in a .gitignore file. This "
 "means you can use patterns such as \"*.txt\"."
 msgstr ""
-"I percorsi possono essere specificati utilizzando i caratteri jolly, proprio come in un file .gitignore. Questo "
-"significa che puoi usare percorsi come \"*.txt\"."
+"I percorsi possono essere specificati utilizzando i caratteri jolly, proprio "
+"come in un file .gitignore. Questo significa che puoi usare percorsi come "
+"\"*.txt\"."
 
 #: src/gtk/help-overlay.ui:29
 msgctxt "shortcut window"
@@ -74,13 +75,17 @@ msgstr "Monitoraggio dei file utilizzati di recente"
 msgid "Activate background service"
 msgstr "Attiva il servizio in background"
 
-#: src/window.py:86
+#: src/window.py:99 src/window.py:114
 msgid "Add Folders to Ignore Pattern"
 msgstr "Aggiungi cartelle per ignorare il modello"
 
-#: src/window.py:87
+#: src/window.py:100 src/window.py:120
 msgid "Select Folder"
 msgstr "Seleziona cartella"
+
+#: src/window.py:119
+msgid "Cancel"
+msgstr ""
 
 #: src/window.ui:42
 msgid "Deactivate to change settings"
@@ -96,7 +101,8 @@ msgstr "Attiva servizio"
 
 #: src/window.ui:69
 msgid "Filter recently used files and keep running in the background"
-msgstr "Filtra i file utilizzati di recente e continua a funzionare in background"
+msgstr ""
+"Filtra i file utilizzati di recente e continua a funzionare in background"
 
 #: src/window.ui:82
 msgid "Ignore Pattern"

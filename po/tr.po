@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: recent-filter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-20 01:05+0300\n"
+"POT-Creation-Date: 2023-08-21 18:53+0200\n"
 "PO-Revision-Date: 2023-08-20 01:12+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -77,13 +77,17 @@ msgstr "Son kullanılan dosyalar izleniyor"
 msgid "Activate background service"
 msgstr "Arka plan hizmetini etkinleştir"
 
-#: src/window.py:86
+#: src/window.py:99 src/window.py:114
 msgid "Add Folders to Ignore Pattern"
 msgstr "Görmezden Gelme Desenine Klasörler Ekle"
 
-#: src/window.py:87
+#: src/window.py:100 src/window.py:120
 msgid "Select Folder"
 msgstr "Klasör Seç"
+
+#: src/window.py:119
+msgid "Cancel"
+msgstr ""
 
 #: src/window.ui:42
 msgid "Deactivate to change settings"

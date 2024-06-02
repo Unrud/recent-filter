@@ -11,6 +11,10 @@ This means you can use patterns such as `*.txt`.
 
 <a href='https://flathub.org/apps/details/io.github.unrud.RecentFilter'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
 
+## Translation
+
+We're using [Weblate](https://hosted.weblate.org/engage/recent-filter/) to translate the UI. So feel free, to contribute translations over there.
+
 ## Screenshots
 
 ![screenshot](https://raw.githubusercontent.com/Unrud/recent-filter/master/screenshots/1.png)

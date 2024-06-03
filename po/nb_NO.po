@@ -7,112 +7,120 @@ msgstr ""
 "Project-Id-Version: recent-filter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-21 18:53+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-06-03 19:00+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
+"recent-filter/gui/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: data/io.github.unrud.RecentFilter.desktop.in:3
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:7
 #: src/about_dialog.ui.in:27 src/main.py:40 src/window.ui:24
 msgid "Recent Filter"
-msgstr ""
+msgstr "Nylig-filter"
 
 #: data/io.github.unrud.RecentFilter.desktop.in:4
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:8
 msgid "Exclude files and folders from recently used files"
-msgstr ""
+msgstr "Utelat filer og mapper fra nylig brukte filer"
 
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:10
 msgid ""
 "﻿Exclude specific files and folders from appearing in the list of recently "
 "used files."
 msgstr ""
+"Utelat spesefikke filer og mapper fra å vises i listen over nylig brukte "
+"filer."
 
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:11
 msgid ""
 "Paths can be specified using wildcards, just like in a .gitignore file. This "
 "means you can use patterns such as \"*.txt\"."
 msgstr ""
+"Stier kan angis med jokertegn, akkurat som en .gitignore-filer. Dette betyr "
+"at du kan bruke mønster som f.eks. «.txt»."
 
 #: src/gtk/help-overlay.ui:29
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Generelt"
 
 #: src/gtk/help-overlay.ui:32
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Vis snarveier"
 
 #: src/gtk/help-overlay.ui:38
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Avslutt"
 
 #: src/service.py:73
 msgid "Deactivate background service"
-msgstr ""
+msgstr "Skru av bakgrunnstjeneste"
 
 #: src/service.py:75
 msgid "Service deactivated"
-msgstr ""
+msgstr "Tjeneste avskrudd"
 
 #: src/service.py:77
 msgid "Monitoring recently used files"
-msgstr ""
+msgstr "Hold oversikt over nylig brukte filer"
 
 #: src/service.py:100
 msgid "Activate background service"
-msgstr ""
+msgstr "Aktiver bakgrunnstjeneste"
 
 #: src/window.py:99 src/window.py:114
 msgid "Add Folders to Ignore Pattern"
-msgstr ""
+msgstr "Legg til mapper i ignoreringsmønster"
 
 #: src/window.py:100 src/window.py:120
 msgid "Select Folder"
-msgstr ""
+msgstr "Velg mappe"
 
 #: src/window.py:119
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: src/window.ui:42
 msgid "Deactivate to change settings"
-msgstr ""
+msgstr "Skru av for å endre innstillinger"
 
 #: src/window.ui:43
 msgid "Deactivate"
-msgstr ""
+msgstr "Skru av"
 
 #: src/window.ui:68
 msgid "Activate Service"
-msgstr ""
+msgstr "Aktiver tjeneste"
 
 #: src/window.ui:69
 msgid "Filter recently used files and keep running in the background"
-msgstr ""
+msgstr "Filtrer nylig brukte filer og levn kjørende i bakgrunnen"
 
 #: src/window.ui:82
+#, fuzzy
 msgid "Ignore Pattern"
-msgstr ""
+msgstr "Ignoreringsmønster"
 
 #: src/window.ui:83
 msgid "Uses gitignore format. Non-local files are not supported."
-msgstr ""
+msgstr "Bruker .gitignore-format. Ikke-lokale filer støttes ikke."
 
 #: src/window.ui:91
 msgid "Add Folder"
-msgstr ""
+msgstr "Legg til mappe"
 
 #: src/window.ui:123
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Tastatursnarveier"
 
 #: src/window.ui:127
 msgid "About Recent Filter"
-msgstr ""
+msgstr "Om"

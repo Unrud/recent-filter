@@ -36,6 +36,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <!-- Credits and Acknowledgements -->
     <property name="developers">Unrud</property>
     <property name="translator-credits">Albano Battistella
+Allan Nordhøy
 Heimen Stoffels
 Sabri Ünal </property>
     <!-- Legal -->

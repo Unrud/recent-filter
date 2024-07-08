@@ -38,6 +38,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <property name="translator-credits">Albano Battistella
 Allan Nordhøy
 Heimen Stoffels
+Priit Jõerüüt
 Sabri Ünal </property>
     <!-- Legal -->
     <property name="copyright">Copyright © 2023 Unrud</property>

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <releases>
+  <release version="0.1.7" date="2024-08-30">
+    <description>
+      <ul>
+        <li>Update Turkish translation</li>
+      </ul>
+    </description>
+  </release>
   <release version="0.1.6" date="2024-07-08">
     <description>
       <ul>

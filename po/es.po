@@ -7,24 +7,28 @@ msgstr ""
 "Project-Id-Version: recent-filter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-21 18:53+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-02-03 04:02+0000\n"
+"Last-Translator: \"Emilio S.\" <emism.translations@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/recent-filter/"
+"gui/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: data/io.github.unrud.RecentFilter.desktop.in:3
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:7
 #: src/about_dialog.ui.in:27 src/main.py:40 src/window.ui:24
 msgid "Recent Filter"
-msgstr ""
+msgstr "Filtros recientes"
 
 #: data/io.github.unrud.RecentFilter.desktop.in:4
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:8
 msgid "Exclude files and folders from recently used files"
 msgstr ""
+"Excluye archivos y carpetas de la lista de archivos usados recientemente."
 
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:10
 msgid ""
@@ -41,25 +45,25 @@ msgstr ""
 #: src/gtk/help-overlay.ui:29
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: src/gtk/help-overlay.ui:32
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Mostrar accesos directos"
 
 #: src/gtk/help-overlay.ui:38
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Salir"
 
 #: src/service.py:73
 msgid "Deactivate background service"
-msgstr ""
+msgstr "Desactivar servicio en segundo plano"
 
 #: src/service.py:75
 msgid "Service deactivated"
-msgstr ""
+msgstr "Servicio desactivado"
 
 #: src/service.py:77
 msgid "Monitoring recently used files"
@@ -67,7 +71,7 @@ msgstr ""
 
 #: src/service.py:100
 msgid "Activate background service"
-msgstr ""
+msgstr "Activar servicio en segundo plano"
 
 #: src/window.py:99 src/window.py:114
 msgid "Add Folders to Ignore Pattern"
@@ -75,27 +79,29 @@ msgstr ""
 
 #: src/window.py:100 src/window.py:120
 msgid "Select Folder"
-msgstr ""
+msgstr "Selecciona una carpeta"
 
 #: src/window.py:119
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: src/window.ui:42
 msgid "Deactivate to change settings"
-msgstr ""
+msgstr "Desactivar para cambiar las configuraciones"
 
 #: src/window.ui:43
 msgid "Deactivate"
-msgstr ""
+msgstr "Desactivar"
 
 #: src/window.ui:68
 msgid "Activate Service"
-msgstr ""
+msgstr "Activar servicio"
 
 #: src/window.ui:69
 msgid "Filter recently used files and keep running in the background"
 msgstr ""
+"Filtrar los archivos usados recientemente y mantener funcionamiento en "
+"segundo plano"
 
 #: src/window.ui:82
 msgid "Ignore Pattern"
@@ -104,15 +110,16 @@ msgstr ""
 #: src/window.ui:83
 msgid "Uses gitignore format. Non-local files are not supported."
 msgstr ""
+"Usa el formato gitignore. Los archivos que no son locales no son soportados."
 
 #: src/window.ui:91
 msgid "Add Folder"
-msgstr ""
+msgstr "Agregar carpeta"
 
 #: src/window.ui:123
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Accesos directos de teclado"
 
 #: src/window.ui:127
 msgid "About Recent Filter"
-msgstr ""
+msgstr "Acerca de Filtros recientes"

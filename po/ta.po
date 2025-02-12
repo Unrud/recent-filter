@@ -7,112 +7,122 @@ msgstr ""
 "Project-Id-Version: recent-filter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-21 18:53+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-02-13 01:01+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/recent-filter/gui/"
+"ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: data/io.github.unrud.RecentFilter.desktop.in:3
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:7
 #: src/about_dialog.ui.in:27 src/main.py:40 src/window.ui:24
 msgid "Recent Filter"
-msgstr ""
+msgstr "அண்மைக் கால வடிகட்டி"
 
 #: data/io.github.unrud.RecentFilter.desktop.in:4
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:8
 msgid "Exclude files and folders from recently used files"
 msgstr ""
+"அண்மைக் காலத்தில் பயன்படுத்தப்பட்ட கோப்புகளிலிருந்து கோப்புகள் மற்றும் கோப்புறைகளை விலக்கவும்"
 
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:10
 msgid ""
 "﻿Exclude specific files and folders from appearing in the list of recently "
 "used files."
 msgstr ""
+"அண்மைக் காலத்தில் பயன்படுத்தப்பட்ட கோப்புகளின் பட்டியலில் தோன்றுவதிலிருந்து குறிப்பிட்ட "
+"கோப்புகள் மற்றும் கோப்புறைகளை விலக்குங்கள்."
 
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:11
 msgid ""
 "Paths can be specified using wildcards, just like in a .gitignore file. This "
 "means you can use patterns such as \"*.txt\"."
 msgstr ""
+".Gitignore கோப்பைப் போலவே வைல்டு கார்டுகளைப் பயன்படுத்தி பாதைகளை குறிப்பிடலாம். இதன் "
+"பொருள் நீங்கள் \"*.txt\" போன்ற வடிவங்களைப் பயன்படுத்தலாம்."
 
 #: src/gtk/help-overlay.ui:29
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "பொது"
 
 #: src/gtk/help-overlay.ui:32
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "குறுக்குவழிகளைக் காட்டு"
 
 #: src/gtk/help-overlay.ui:38
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "வெளியேறு"
 
 #: src/service.py:73
 msgid "Deactivate background service"
-msgstr ""
+msgstr "பின்னணி சேவையை செயலிழக்கச் செய்யுங்கள்"
 
 #: src/service.py:75
 msgid "Service deactivated"
-msgstr ""
+msgstr "பணி செயலிழக்கப்பட்டது"
 
 #: src/service.py:77
 msgid "Monitoring recently used files"
-msgstr ""
+msgstr "அண்மைக் காலத்தில் பயன்படுத்திய கோப்புகளை கண்காணித்தல்"
 
 #: src/service.py:100
 msgid "Activate background service"
-msgstr ""
+msgstr "பின்னணி சேவையை செயல்படுத்தவும்"
 
 #: src/window.py:99 src/window.py:114
 msgid "Add Folders to Ignore Pattern"
-msgstr ""
+msgstr "வடிவத்தை புறக்கணிக்க கோப்புறைகளைச் சேர்க்கவும்"
 
 #: src/window.py:100 src/window.py:120
 msgid "Select Folder"
-msgstr ""
+msgstr "கோப்புறையைத் தேர்ந்தெடு"
 
 #: src/window.py:119
 msgid "Cancel"
-msgstr ""
+msgstr "ரத்துசெய்"
 
 #: src/window.ui:42
 msgid "Deactivate to change settings"
-msgstr ""
+msgstr "அமைப்புகளை மாற்ற செயலிழக்கச் செய்யுங்கள்"
 
 #: src/window.ui:43
 msgid "Deactivate"
-msgstr ""
+msgstr "செயலிழக்கச் செய்யுங்கள்"
 
 #: src/window.ui:68
 msgid "Activate Service"
-msgstr ""
+msgstr "சேவையை செயல்படுத்தவும்"
 
 #: src/window.ui:69
 msgid "Filter recently used files and keep running in the background"
 msgstr ""
+"அண்மைக் காலத்தில் பயன்படுத்திய கோப்புகளை வடிகட்டி, பின்னணியில் தொடர்ந்து இயங்குகிறது"
 
 #: src/window.ui:82
 msgid "Ignore Pattern"
-msgstr ""
+msgstr "முறையை புறக்கணிக்கவும்"
 
 #: src/window.ui:83
 msgid "Uses gitignore format. Non-local files are not supported."
 msgstr ""
+"கிடிக்னோர் வடிவமைப்பைப் பயன்படுத்துகிறது. உள்ளக அல்லாத கோப்புகள் ஆதரிக்கப்படவில்லை."
 
 #: src/window.ui:91
 msgid "Add Folder"
-msgstr ""
+msgstr "கோப்புறையைச் சேர்"
 
 #: src/window.ui:123
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "விசைப்பலகை குறுக்குவழிகள்"
 
 #: src/window.ui:127
 msgid "About Recent Filter"
-msgstr ""
+msgstr "அண்மைக் கால வடிகட்டி பற்றி"

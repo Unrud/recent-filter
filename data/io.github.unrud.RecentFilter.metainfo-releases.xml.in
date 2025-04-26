@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <releases>
+  <release version="0.1.8" date="2025-04-26">
+    <description>
+      <ul>
+        <li>Add Hindi translation (incomplete)</li>
+        <li>Add Interlingua translation (incomplete)</li>
+        <li>Add Spanish translation (incomplete)</li>
+        <li>Add Tamil translation</li>
+      </ul>
+    </description>
+  </release>
   <release version="0.1.7" date="2024-08-30">
     <description>
       <ul>

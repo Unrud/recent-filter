@@ -37,10 +37,13 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <property name="developers">Unrud</property>
     <property name="translator-credits">Albano Battistella
 Allan Nordhøy
+Emilio S.
 Heimen Stoffels
+Janmejay Biswal
 Oğuz Ersen
 Priit Jõerüüt
-Sabri Ünal </property>
+Sabri Ünal
+தமிழ்நேரம்</property>
     <!-- Legal -->
     <property name="copyright">Copyright © 2023 Unrud</property>
     <property name="license-type">gpl-3-0</property>

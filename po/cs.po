@@ -7,113 +7,120 @@ msgstr ""
 "Project-Id-Version: recent-filter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-21 18:53+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-03-18 09:09+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/recent-filter/gui/"
+"cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: data/io.github.unrud.RecentFilter.desktop.in:3
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:7
 #: src/about_dialog.ui.in:27 src/main.py:40 src/window.ui:24
 msgid "Recent Filter"
-msgstr ""
+msgstr "Filtr nedávných"
 
 #: data/io.github.unrud.RecentFilter.desktop.in:4
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:8
 msgid "Exclude files and folders from recently used files"
-msgstr ""
+msgstr "Vynechat určené soubory a složky ze seznamu těch nedávno otevřených"
 
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:10
 msgid ""
 "﻿Exclude specific files and folders from appearing in the list of recently "
 "used files."
 msgstr ""
+"Vynechat konkrétní soubory a složky, aby se neobjevovaly v seznamu nedávno "
+"otevřených souborů."
 
 #: data/io.github.unrud.RecentFilter.metainfo.xml.in:11
 msgid ""
 "Paths can be specified using wildcards, just like in a .gitignore file. This "
 "means you can use patterns such as \"*.txt\"."
 msgstr ""
+"Popisy umístění je možné zadávat s použitím zástupných znaků, po vzoru "
+"souboru .gitingore. To znamená, že je možné používat vzory jako např. „*.txt"
+"“."
 
 #: src/gtk/help-overlay.ui:29
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Obecné"
 
 #: src/gtk/help-overlay.ui:32
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Zobrazit zkratky"
 
 #: src/gtk/help-overlay.ui:38
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Ukončit"
 
 #: src/service.py:73
 msgid "Deactivate background service"
-msgstr ""
+msgstr "Deaktivovat službu na pozadí"
 
 #: src/service.py:75
 msgid "Service deactivated"
-msgstr ""
+msgstr "Služba deaktivována"
 
 #: src/service.py:77
 msgid "Monitoring recently used files"
-msgstr ""
+msgstr "Monitorování nedávno otevřených souborů"
 
 #: src/service.py:100
 msgid "Activate background service"
-msgstr ""
+msgstr "Aktivovat službu na pozadí"
 
 #: src/window.py:99 src/window.py:114
 msgid "Add Folders to Ignore Pattern"
-msgstr ""
+msgstr "Přidat složky do vzoru ignorovaných"
 
 #: src/window.py:100 src/window.py:120
 msgid "Select Folder"
-msgstr ""
+msgstr "Vybrat složku"
 
 #: src/window.py:119
 msgid "Cancel"
-msgstr ""
+msgstr "Storno"
 
 #: src/window.ui:42
 msgid "Deactivate to change settings"
-msgstr ""
+msgstr "Pro změnu nastavení deaktivujte"
 
 #: src/window.ui:43
 msgid "Deactivate"
-msgstr ""
+msgstr "Deaktivovat"
 
 #: src/window.ui:68
 msgid "Activate Service"
-msgstr ""
+msgstr "Aktivovat službu"
 
 #: src/window.ui:69
 msgid "Filter recently used files and keep running in the background"
-msgstr ""
+msgstr "Filtrovat nedávno otevřené soubory a ponechat spuštěné na pozadí"
 
 #: src/window.ui:82
 msgid "Ignore Pattern"
-msgstr ""
+msgstr "Vzor ignorovaných"
 
 #: src/window.ui:83
 msgid "Uses gitignore format. Non-local files are not supported."
-msgstr ""
+msgstr "Používá formát gitignore. Nemístní soubory nejsou podporovány."
 
 #: src/window.ui:91
 msgid "Add Folder"
-msgstr ""
+msgstr "Přidat složku"
 
 #: src/window.ui:123
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Klávesové zkratky"
 
 #: src/window.ui:127
 msgid "About Recent Filter"
-msgstr ""
+msgstr "O aplikaci Filtr nedávných"

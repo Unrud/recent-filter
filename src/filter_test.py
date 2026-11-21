@@ -34,13 +34,13 @@ class TestGitignore(unittest.TestCase):
         self.assertEqual(os.path.expanduser('~'), expand_path('~'))
 
     def test_expand_home2(self):
-        self.assertEqual(os.expanduser('~/foo'), expand_path('~/foo'))
+        self.assertEqual(os.path.expanduser('~/foo'), expand_path('~/foo'))
 
     def test_path_to_pattern1(self):
-        self.assertEqual(path_to_pattern(os.expanduser('~')), '~')
+        self.assertEqual(path_to_pattern(os.path.expanduser('~')), '~')
 
     def test_path_to_pattern2(self):
-        self.assertEqual(path_to_pattern(os.expanduser('~/foo')), '~/foo')
+        self.assertEqual(path_to_pattern(os.path.expanduser('~/foo')), '~/foo')
 
     def test_path_to_pattern3(self):
         self.assertEqual(path_to_pattern('/['), '/\\[')

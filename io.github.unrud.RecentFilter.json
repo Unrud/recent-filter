@@ -1,7 +1,7 @@
 {
     "app-id": "io.github.unrud.RecentFilter",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "command": "recent-filter",
     "finish-args": [
@@ -11,17 +11,6 @@
         "--socket=wayland",
         "--filesystem=xdg-data",
         "--filesystem=home:ro"
-    ],
-    "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a"
     ],
     "modules": [
         {

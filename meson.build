@@ -44,6 +44,7 @@ endif
 
 if (python_for_unittest.found())
   test('Run python unittest', python_for_unittest,
+    workdir: meson.current_source_dir(),
     args: ['-B', '-c', 'import runpy, sys, src; sys.modules["recent_filter"]=src; runpy.run_module("unittest", alter_sys=True)',
            'discover', '-p', '*_test.py'],
   )

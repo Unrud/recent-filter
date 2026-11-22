@@ -68,5 +68,10 @@ python_sources_for_linting += recent_filter_sources
 
 install_data(recent_filter_sources, install_dir: moduledir)
 
+python_sources_for_unittest += files([
+  'gitignore_test.py',
+  'filter_test.py',
+])
+
 
 subdir('util')

@@ -5,6 +5,7 @@ project('recent-filter',
 )
 
 python_sources_for_linting = []
+python_sources_for_unittest = []
 i18n = import('i18n')
 gnome = import('gnome')
 python = import('python').find_installation('python3')
@@ -42,10 +43,10 @@ if (python_for_linting.found() and python_sources_for_linting.length() > 0)
   )
 endif
 
-if (python_for_unittest.found())
+if (python_for_unittest.found() and python_sources_for_unittest.length() > 0)
   test('Run python unittest', python_for_unittest,
     workdir: meson.current_source_dir(),
     args: ['-B', '-c', 'import runpy, sys, src; sys.modules["recent_filter"]=src; runpy.run_module("unittest", alter_sys=True)',
-           'discover', '-p', '*_test.py'],
+           python_sources_for_unittest],
   )
 endif
